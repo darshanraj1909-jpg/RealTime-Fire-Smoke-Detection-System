@@ -17,19 +17,15 @@ An end-to-end Computer Vision pipeline designed to detect fire and smoke in real
 ---
 
 ## 💻 Local Desktop Setup & Installation
-
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/darshanraj1909/RealTime-Fire-Smoke-System.git](https://github.com/darshanraj1909-jpg/RealTime-Fire-Smoke-System.git)
-cd YOUR_REPO_NAME
-### 2.Install Required Dependencies
+git clone https://github.com/darshanraj1909-jpg/RealTime-Fire-Smoke-System.git
+cd RealTime-Fire-Smoke-System
 pip install ultralytics opencv-python
-pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cpu](https://download.pytorch.org/whl/cpu)
-### 3.File Structure Setup
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ├── app.py             # Local Desktop Client application 
 ├── pi_app.py          # Embedded Raspberry Pi deployment client
 ├── best.pt            # PyTorch custom-trained target weights
 └── best.tflite        # Exported lightweight TFLite model
-### 4.Run the Local Desktop Client
 python app.py
 
